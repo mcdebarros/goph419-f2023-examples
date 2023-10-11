@@ -90,3 +90,9 @@ def binary_float(value):
     #       multiple strings together with the character at the beginning
     #       (in this case a space " ") placed between the strings
     return " ".join([sgn_str, exp_str, sig_str])
+
+floati = binary_float(3.43452354234e-6)
+inte = binary_int(3.43452354234e-6)
+
+print(floati)
+print(inte)
